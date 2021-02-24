@@ -1,12 +1,6 @@
-import './Button.css'
+import styled from 'styled-components/macro'
 
-export default function Button({ text, onClick, isActive }) {
-  return (
-    <button
-      className={isActive ? 'Button Button--active' : 'Button'}
-      onClick={onClick}
-    >
-      {text}
-    </button>
-  )
-}
+export default styled.button`
+  background-color: lightgray;
+  border: 1px solid black;
+`

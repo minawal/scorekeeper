@@ -1,0 +1,9 @@
+.Navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.Navigation__Button-active {
+  background-color: palegreen;
+  font-size: 20px;
+}
